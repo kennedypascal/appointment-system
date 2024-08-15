@@ -83,41 +83,20 @@ Import the provided SQL file. The file is known as DATABASE edoc.sql located ins
 
 Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/edoc/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 DATABASE NAME: 'edoc'
 
 # BUILDIN USER ACCOUNTS OF THIS PROJECT
 
 ADMIN EMAIL:		admin@edoc.com
-
 ADMNIN PASSWORD:	admin
 
 
 DOCTOR EMAIL:		doctor@edoc.com
-
 DOCTOR PASSWORD:	doctor
 
 
 PATIENT EMAIL:		patient@edoc.com
-
 PATIENT PASSWORD:	patient
-
-
-
-
-
 ---------------------------------------
 # The Project was developed using the following technologies:
 
