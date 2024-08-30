@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/animations.css">  
     <link rel="stylesheet" href="css/main.css">  
     <link rel="stylesheet" href="css/index.css">
-    <title>eDoc</title>
+    <title>SURGERY APPOINTMENT</title>
     <style>
         table{
             animation: transitionIn-Y-bottom 0.5s;
@@ -23,8 +23,8 @@
         <table border="0">
             <tr>
                 <td width="80%">
-                    <font class="edoc-logo">eSURG</font>
-                    <font class="edoc-logo-sub">| SURGERY AS AND WHEN</font>
+                    <font class="fs-6" style="padding-right: 10px;">eSURG</font>
+                    <font class="fs-6" style="padding-right: 10px;">| SURGERY AS AND WHEN</font>
                 </td>
                 <td width="10%">
                    <a href="login.php"  class="non-style-link"><p class="nav-item">LOGIN</p></a>
