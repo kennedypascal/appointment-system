@@ -138,7 +138,7 @@
                                 <p class="heading-sub12" style="padding: 0;margin: 0;">
                                 
                                 <?php 
-                                date_default_timezone_set('Asia/Kolkata');
+                                date_default_timezone_set('Africa/Accra');
         
                                 $today = date('d-m-Y');
                                 echo $today;
@@ -240,24 +240,24 @@
                             <tr>
                                 <td>
                                     <p style="padding:10px;padding-left:48px;padding-bottom:0;font-size:23px;font-weight:700;color:var(--primarycolor);">
-                                        Upcoming Appointments until Next <?php  
+                                    Appointments until Next <?php  
                                         echo date("l",strtotime("+1 week"));
                                         ?>
                                     </p>
                                     <p style="padding-bottom:19px;padding-left:50px;font-size:15px;font-weight:500;color:#212529e3;line-height: 20px;">
-                                        Here's Quick access to Upcoming Appointments until 7 days<br>
-                                        More details available in @Appointment section.
+                                        Quick access to Upcoming Appointments until 7 days<br>
+                                        Details available in @Appointment section.
                                     </p>
 
                                 </td>
                                 <td>
                                     <p style="text-align:right;padding:10px;padding-right:48px;padding-bottom:0;font-size:23px;font-weight:700;color:var(--primarycolor);">
-                                        Upcoming Sessions  until Next <?php  
+                                        Sessions until Next <?php  
                                         echo date("l",strtotime("+1 week"));
                                         ?>
                                     </p>
                                     <p style="padding-bottom:19px;text-align:right;padding-right:50px;font-size:15px;font-weight:500;color:#212529e3;line-height: 20px;">
-                                        Here's Quick access to Upcoming Sessions that Scheduled until 7 days<br>
+                                        Quick access to Upcoming Sessions that Scheduled until 7 days<br>
                                         Add,Remove and Many features available in @Schedule section.
                                     </p>
                                 </td>

@@ -23,7 +23,7 @@ $_SESSION["user"]="";
 $_SESSION["usertype"]="";
 
 // Set the new timezone
-date_default_timezone_set('Asia/Kolkata');
+date_default_timezone_set('Africa/Accra');
 $date = date('Y-m-d');
 
 $_SESSION["date"]=$date;
@@ -89,12 +89,12 @@ if($_POST){
             </tr>
             <tr>
                 <td class="label-td" colspan="2">
-                    <label for="nic" class="form-label">NIC: </label>
+                    <label for="nia" class="form-label">NIA: </label>
                 </td>
             </tr>
             <tr>
                 <td class="label-td" colspan="2">
-                    <input type="text" name="nic" class="input-text" placeholder="NIC Number" required>
+                    <input type="text" name="nia" class="input-text" placeholder="Ghana Card" required>
                 </td>
             </tr>
             <tr>
