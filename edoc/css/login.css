@@ -1,7 +1,11 @@
 
 body{
-    margin: 7%;
-    background-color: #F6F7FA;
+    background-image: url(../img/login.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+
 }
 
 

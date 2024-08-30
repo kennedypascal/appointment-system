@@ -27,7 +27,7 @@
     $_SESSION["usertype"]="";
     
     // Set the new timezone
-    date_default_timezone_set('Asia/Kolkata');
+    date_default_timezone_set('Africa/Accra');
     $date = date('d-m-Y');
 
     $_SESSION["date"]=$date;
