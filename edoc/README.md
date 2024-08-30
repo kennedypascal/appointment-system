@@ -88,15 +88,15 @@ DATABASE NAME: 'edoc'
 # BUILDIN USER ACCOUNTS OF THIS PROJECT
 
 ADMIN EMAIL:		admin@edoc.com
-ADMNIN PASSWORD:	admin
+ADMNIN PASSWORD:	123
 
 
 DOCTOR EMAIL:		doctor@edoc.com
-DOCTOR PASSWORD:	doctor
+DOCTOR PASSWORD:	123
 
 
 PATIENT EMAIL:		patient@edoc.com
-PATIENT PASSWORD:	patient
+PATIENT PASSWORD:	123
 ---------------------------------------
 # The Project was developed using the following technologies:
 
