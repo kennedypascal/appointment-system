@@ -23,8 +23,8 @@
         <table border="0">
             <tr>
                 <td width="80%">
-                    <font class="fs-6" style="padding-right: 10px;">eSURG</font>
-                    <font class="fs-6" style="padding-right: 10px;">| SURGERY AS AND WHEN</font>
+                    <font class="Esurg">eSURG</font>
+                    <font class="Esurg-sub">| SURGERY AS AND WHEN</font>
                 </td>
                 <td width="10%">
                    <a href="login.php"  class="non-style-link"><p class="nav-item">LOGIN</p></a>
