@@ -65,7 +65,7 @@ if(isset($_POST['login']))
                         <div class="card-box p-5">
                             <h3 class="text-initial text-center pb-4">
                                 <a href="../index.php" class="text-success">
-                                    <span> e-SURG | Patient Login</span>
+                                    <span> Adwoa Boatemaa Memorial Clinic | Patient Login</span>
                                 </a>
                             </h3>
                             <p style="font-size:16px; color:red" align="center"> <?php if($msg){
@@ -118,7 +118,7 @@ if(isset($_POST['login']))
             </div>
 
             <div class="m-t-40 text-center">
-                <p class="account-copyright">2024 @ Surgery Appointment System</p>
+                <p class="account-copyright">2024 &copy  Adwoa Boatemaa Memorial</p>
             </div>
 
         </div>

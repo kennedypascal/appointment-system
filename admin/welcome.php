@@ -15,7 +15,7 @@ if (strlen($_SESSION['adid']==0)) {
 
     <head>
         <meta charset="utf-8" />
-        <title>e-SURG Admin Welcome Page</title>
+        <title>Adwoa Boatemaa Memorial Clinic Admin Welcome Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
@@ -58,7 +58,7 @@ if (strlen($_SESSION['adid']==0)) {
                          <div class="row">
                             <div class="col-12">
                                 <div class="card-box">
-                                    <h4 class="header-title mb-4">e-SURG Admin Overview</h4>
+                                    <h4 class="header-title mb-4">Adwoa Boatemaa Memorial Clinic Admin Overview</h4>
 
                                     <div class="row">
                                         <div class="col-sm-6 col-lg-6 col-xl-3">

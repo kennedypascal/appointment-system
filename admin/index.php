@@ -113,7 +113,7 @@ if(isset($_POST['login'])) {
                     <div class="card-box p-5">
                         <h3 class="text-center pb-4">
                             <a href="../index.php" class="text-success">
-                                <span>e-SURG | Admin Login</span>
+                                <span>Adwoa Boatemaa Memorial Clinic | Admin Login</span>
                             </a>
                         </h3>
                         <p> <?php if($msg){ echo $msg; }  ?> </p>

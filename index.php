@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title> Surgery Appointment System</title>
+  <title>Adwoa Boatemaa Memorial Clinic</title>
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template -->
@@ -18,7 +18,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-success fixed-top text-uppercase" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Welcome To Our Surgery Appointment System</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Welcome To Adwoa Boatema Memorial Clinic</a>
       <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -45,7 +45,7 @@
   <div class="card bg-dark text-white">
   <img class="card-img" src="img/profile1.png" alt="Card image">
   <div class="card-img-overlay">
-    <h1 class="card-title">e-SURG</h1>
+    <h1 class="card-title">Adwoa Boatemaa Memorial Clinic</h1>
 </div>
     
   </header>
@@ -60,10 +60,10 @@
 
   <div class="copyright py-4 bg-success text-center text-white">
     <div class="container">
-      <small>Copyright &copy;  e-SURG 2024</small>
+      <small>Copyright &copy; Adwoa Boatemaa Memorial Clinic </small>
     </div>
   </div>
-
+  
  
   
   <!-- Bootstrap core JavaScript -->

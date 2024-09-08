@@ -12,7 +12,7 @@ if (strlen($_SESSION['adid']==0)) {
 
     <head>
         <meta charset="utf-8" />
-        <title>e-SURG Surgery Completed Page</title>
+        <title>Adwoa Boatemaa Memorial Clinic Surgery Completed Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />

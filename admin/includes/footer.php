@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer" style="text-align: center;">
     2024 &copy; Adwoa Boatemaa Memorial Clinic
 </footer>
 
@@ -6,10 +6,10 @@
     .footer {
         background-color: #2c3e50; /* Dark navy blue */
         color: #ffffff; /* White text for contrast */
-        text-align: center;
+        /* text-align: justify; */
         padding: 15px 0;
         font-size: 14px;
-        position: relative;
+        position: fixed;
         bottom: 0;
         width: 100%;
         border-top: 2px solid #28a745; /* Light green border for a subtle touch */
@@ -19,7 +19,7 @@
     
     .footer a {
         color: #28a745; /* Use green for links to stay consistent with the clinic theme */
-        text-decoration: none;
+        text-decoration: burlywood;
         font-weight: bold;
     }
 
