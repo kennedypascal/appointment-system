@@ -129,7 +129,8 @@ if(isset($_POST['login'])) {
                                 <label for="password">Password</label>
                                 <input class="form-control" type="password" required="" id="password" name="password" placeholder="Enter your password">
                                 <a href="forget-password.php" class="text-muted float-right"><small>Forgot your password?</small></a>
-                            </div>
+                            </div> 
+                            
 
                             <div class="form-group text-center">
                                 <button class="btn btn-custom btn-block" type="submit" name="login">Sign In</button>
