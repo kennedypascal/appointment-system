@@ -1,8 +1,7 @@
-# Vehicle-Service-Management-System
-This system “Vehicle service management system (VSMS)” allows providing vehicle for service. If customer got any problem with his vehicle, they provide services.
+# Surgery-Management-System
+This system is to help patients to book appointments and for the admins to asign the available surgeons to the patients after accepting the requests or dening it. 
 
-
-The real power of this project lies not in direct selling of products, but in the creation of tighter relationships with customers and delivering of a high level of service and support, which in turn improves organization sales and its goodwill. A service organization is a business entity that takes care of servicing a customer instrument in the after sales domain.
+The web system is to help patients, doctors and administrators to help streamline the activities in the theaters.
 
 # Software Specifications
 Operating System: Windows/Linux
@@ -16,3 +15,23 @@ Front-End: PHP
 Back-End: MySQL
 
 Web Server: Apache
+
+# How to use
+
+How to run the Surgery Appointment System Project
+
+1. Download the  zip file
+2. Extract the file and copy Surgery Appointment folder
+3.Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+4. Open PHPMyAdmin (http://localhost/phpmyadmin)
+5. Create a database with name surgerydb
+6. Import surgerydb.sql file
+
+http://localhost/appointment-system/surgery-appointment
+
+Credential for admin panel :
+Username: admin Password: admin123
+
+Credential for Patient panel :
+Username: patient@esurg.com Password: patient@esurg.com
+          
