@@ -53,7 +53,7 @@ if(isset($_POST['login']))
     <body class="account-pages">
 
         <!-- Begin page -->
-        <div class="accountbg" style="background: url('assets/images/patients_login.png');background-size: cover;background-position: center;"></div>
+        <div class="accountbg" style="background: url('assets/images/patients_login.jpg');background-size: cover;background-position: center;"></div>
 
         <div class="wrapper-page account-page-full">
 
@@ -118,7 +118,7 @@ if(isset($_POST['login']))
             </div>
 
             <div class="m-t-40 text-center">
-                <p class="account-copyright">2024 &copy  Adwoa Boatemaa Memorial</p>
+                <p class="account-copyright">2024 &copy  Lekma Hospital</p>
             </div>
 
         </div>

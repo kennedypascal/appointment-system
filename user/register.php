@@ -74,7 +74,7 @@ return true;
     <body class="account-pages">
 
         <!-- Begin page -->
-        <div class="accountbg" style="background: url('assets/images/register.png');background-position: center; height: 750px;"></div>
+        <div class="accountbg" style="background: url('assets/images/register.jpg');background-position: center; height: 750px;"></div>
 
         <div class="wrapper-page account-page-full">
 
