@@ -5,7 +5,7 @@
 
                     <!-- LOGO -->
                     <div class="topbar-left">
-                       <h3>e-SURG | Patient  </h3>
+                       <h3>Lekma Hospital | Patient  </h3>
                        <hr />                    </div>
 
                     <!-- User box -->

@@ -5,7 +5,7 @@
 
           <!-- LOGO -->
           <!-- <div class="topbar-left">
-              <h3>Adwoa Boatemaa Memorial Clinic | Admin </h3>
+              <h3>Lekma Hospital | Admin </h3>
               <hr />
           </div> -->
 

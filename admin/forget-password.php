@@ -31,7 +31,7 @@ if(isset($_POST['submit']))
 
     <head>
         <meta charset="utf-8" />
-        <title>Adwoa Boatemaa Memorial Clinic Forget Password Page</title>
+        <title>Lekma Hospital Forget Password Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
@@ -66,7 +66,7 @@ if(isset($_POST['submit']))
                         <div class="card-box p-5">
                             <h3 class="text-uppercase text-center pb-4">
                                 <a href="../index.php" class="text-success">
-                                    <span>Adwoa Boatemaa Memorial Clinic | Recover Password</span>
+                                    <span>Lekma Hospital | Recover Password</span>
                                 </a>
                             </h3>
                             <p style="font-size:16px; color:red" align="center"> <?php if($msg){

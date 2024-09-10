@@ -5,7 +5,7 @@
 
                   <!-- LOGO -->
                   <div class="topbar-left">
-                     <h3>e-SURG | Doctor  </h3>
+                     <h3>Lekma Hospital | Doctor  </h3>
                      <hr />                    </div>
 
                   <!-- User box -->
@@ -22,7 +22,7 @@ $name=$row['FullName'];
 
 ?>
                       <h5><?php echo $name; ?></a> </h5>
-                      <p class="text-muted">e-SURG Doctor</p>
+                      <p class="text-muted">Lekma Doctor</p>
                   </div>
 
                   <!--- Sidemenu -->

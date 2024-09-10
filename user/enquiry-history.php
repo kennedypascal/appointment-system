@@ -12,7 +12,7 @@ if (strlen($_SESSION['sid']==0)) {
 
     <head>
         <meta charset="utf-8" />
-        <title>e-SURG Enquiry History Page</title>
+        <title>Lekma Hospital Enquiry History Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
@@ -54,7 +54,7 @@ if (strlen($_SESSION['sid']==0)) {
                         <div class="row">
                             <div class="col-12">
                                 <div class="card-box">
-                                    <h4 class="m-t-0 header-title">Surgery Enquiry History</h4>
+                                    <h4 class="m-t-0 header-title">Appointment History</h4>
                                     <p class="text-muted m-b-30 font-14">
                                        
                                     </p>
@@ -67,8 +67,8 @@ if (strlen($_SESSION['sid']==0)) {
               <thead>
                 <tr>
                   <th>S.NO</th>
-                  <th>Surgery Enquiry Number</th>
-                  <th>Surgery Enquiry Date</th>
+                  <th>Appointment Number</th>
+                  <th>Appointment Date</th>
                   <th>Action</th>
                 </tr>
               </thead>

@@ -1,5 +1,5 @@
 <footer class="footer" style="text-align: center;">
-    2024 &copy; Adwoa Boatemaa Memorial Clinic
+    2024 &copy; Lekma Hospital
 </footer>
 
 <style>

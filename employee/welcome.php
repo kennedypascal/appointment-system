@@ -14,7 +14,7 @@ if (strlen($_SESSION['eid']==0)) {
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>e-SURG Welcome Page</title>
+        <title>Lekma Hospital Welcome Page</title>
         <!-- App favicon -->
         <link rel="shortcut icon" href="assets/images/favicon.ico">
         <!-- App css -->
@@ -63,7 +63,7 @@ if (strlen($_SESSION['eid']==0)) {
                         <div class="row">
                             <div class="col-12">
                                 <div class="card-box">
-                                    <h4 class="header-title mb-4">Welcome Back to e-SURG Doctors panel !</h4>
+                                    <h4 class="header-title mb-4">Welcome Back to Lekma Hospital Doctors panel !</h4>
 
                                     <div class="row">
 

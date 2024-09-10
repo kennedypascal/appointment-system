@@ -18,7 +18,7 @@ include('includes/dbconnection.php');
 
     <head>
         <meta charset="utf-8" />
-        <title>e-SURG Terms & Conditions</title>
+        <title>Lekma Hospital Terms & Conditions</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
@@ -52,7 +52,7 @@ include('includes/dbconnection.php');
                         <div class="card-box p-5">
                             <h3 class="text-uppercase text-center pb-4">
                                 <a href="index.html" class="text-success">
-                                    <span>e-SURG | Terms & Conditions</span>
+                                    <span>Lekma Hospital | Terms & Conditions</span>
                                 </a>
                             </h3>
 

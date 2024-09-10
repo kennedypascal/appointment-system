@@ -35,7 +35,7 @@ if(isset($_POST['submit']))
 
     <head>
         <meta charset="utf-8" />
-        <title>e-SURG Enquiry Request Page</title>
+        <title>Lekma Hospital Enquiry Request Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
@@ -77,7 +77,7 @@ if(isset($_POST['submit']))
                         <div class="row">
                             <div class="col-12">
                                 <div class="card-box">
-                                    <h4 class="m-t-0 header-title">Surgery Enquiry Form</h4>
+                                    <h4 class="m-t-0 header-title">Appointment Form</h4>
                                     <p class="text-muted m-b-30 font-14">
                                        
                                     </p>
@@ -90,7 +90,7 @@ if(isset($_POST['submit']))
   }  ?> </p>
                                                 <form class="form-horizontal" role="form" method="post" name="submit">
                                                     <div class="form-group row">
-                                                        <label class="col-2 col-form-label">Surgery Enquiry</label>
+                                                        <label class="col-2 col-form-label">Appointment Enquiry</label>
                                                         <div class="col-10">
                                                             <select name='enquirytype' id="enquirytype" class="form-control" required="true">
      <option value="">Surgery Type</option>

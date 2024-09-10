@@ -34,7 +34,7 @@ if(isset($_POST['login'])) {
             background-color: #f4f6f9;
         }
         .accountbg {
-            background: url('assets/images/admin_login.png') no-repeat center center/cover;
+            background: url('assets/images/admin_login.jpg') no-repeat center center/cover;
             position: absolute;
             top: 0;
             left: 0;
@@ -113,7 +113,7 @@ if(isset($_POST['login'])) {
                     <div class="card-box p-5">
                         <h3 class="text-center pb-4">
                             <a href="../index.php" class="text-success">
-                                <span>Adwoa Boatemaa Memorial Clinic | Admin Login</span>
+                                <span>Lekma Hospital | Admin Login</span>
                             </a>
                         </h3>
                         <p> <?php if($msg){ echo $msg; }  ?> </p>

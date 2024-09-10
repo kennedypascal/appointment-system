@@ -35,7 +35,7 @@ $msg="Your current password is wrong";
 
     <head>
         <meta charset="utf-8" />
-        <title>VIP Monitoring and Maintainance Service System</title>
+        <title>Lekma Hospital</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />

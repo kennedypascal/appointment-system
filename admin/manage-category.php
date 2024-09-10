@@ -12,7 +12,7 @@ if (strlen($_SESSION['adid']==0)) {
 
     <head>
         <meta charset="utf-8" />
-        <title>Adwoa Boatemaa Memorial Clinic Manage Category Page</title>
+        <title>Lekma Hospital Manage Category Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
@@ -54,7 +54,7 @@ if (strlen($_SESSION['adid']==0)) {
                         <div class="row">
                             <div class="col-12">
                                 <div class="card-box">
-                                    <h4 class="m-t-0 header-title">Manage Surgery Category</h4>
+                                    <h4 class="m-t-0 header-title">Manage Categories</h4>
                                     <p class="text-muted m-b-30 font-14">
 
                                     </p>
