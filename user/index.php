@@ -65,7 +65,7 @@ if(isset($_POST['login']))
                         <div class="card-box p-5">
                             <h3 class="text-initial text-center pb-4">
                                 <a href="../index.php" class="text-success">
-                                    <span> Adwoa Boatemaa Memorial Clinic | Patient Login</span>
+                                    <span> Lekma Hospital | Patient Login</span>
                                 </a>
                             </h3>
                             <p style="font-size:16px; color:red" align="center"> <?php if($msg){

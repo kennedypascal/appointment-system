@@ -12,7 +12,7 @@ if (strlen($_SESSION['sid']==0)) {
 
     <head>
         <meta charset="utf-8" />
-        <title>e-SURG Surgery Service Page</title>
+        <title>Lekma Hospital Service Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
@@ -59,7 +59,7 @@ if (strlen($_SESSION['sid']==0)) {
                         <div class="row">
                             <div class="col-12">
                                 <div class="card-box">
-                                    <h4 class="m-t-0 header-title">Surgery History View</h4>
+                                    <h4 class="m-t-0 header-title">AppoAppointment History View</h4>
                                     <p class="text-muted m-b-30 font-14">
 
                                     </p>
@@ -87,31 +87,31 @@ while ($row=mysqli_fetch_array($ret)) {
 <table border="1" class="table table-bordered mg-b-0">
 
    <tr>
-    <th>Surgery Request Date</th>
+    <th>Appointment Request Date</th>
     <td><?php  echo $row['ServicerequestDate'];?></td>
   </tr>
 <tr>
-    <th>Surgery Number</th>
+    <th>Appointment Number</th>
     <td><?php  echo $row['ServiceNumber'];?></td>
   </tr>
 
 <tr>
-    <th>Surgery Category</th>
+    <th>Appointment Category</th>
     <td><?php  echo $row['Category'];?></td>
   </tr>
 
 <tr>
-    <th>Surgery Name</th>
+    <th>Appointment Name</th>
     <td><?php  echo $row['VehicleName'];?></td>
   </tr>
 
   <tr>
-    <th>Surgery Type</th>
+    <th>Appointment Type</th>
     <td><?php  echo $row['VehicleModel'];?></td>
   </tr>
 
   <tr>
-    <th>Surgery Classification</th>
+    <th>Appointment Classification</th>
     <td><?php  echo $row['VehicleBrand'];?></td>
   </tr>
   <tr>
@@ -119,12 +119,12 @@ while ($row=mysqli_fetch_array($ret)) {
     <td><?php  echo $row['VehicleRegno'];?></td>
   </tr>
   <tr>
-    <th>Surgery Date</th>
+    <th>Appointment Date</th>
     <td><?php  echo $row['ServiceDate'];?></td>
   </tr>
 
 <tr>
-    <th>Surgery Time</th>
+    <th>Appointment Time</th>
     <td><?php  echo $row['ServiceTime'];?></td>
   </tr>
 
@@ -147,7 +147,7 @@ while ($row=mysqli_fetch_array($ret)) {
   </tr>
 
   <tr>
-    <th>Surgery Request Date</th>
+    <th>Appointment Request Date</th>
     <td><?php  echo $row['ServicerequestDate'];?></td>
   </tr>
 
