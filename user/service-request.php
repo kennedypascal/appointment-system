@@ -141,12 +141,12 @@ if (strlen($_SESSION['sid'] == 0)) {
                                                         <input type="text" class="form-control" placeholder="Classification" name="vehiclebrand" id="vehiclebrand" required="true">
                                                     </div>
                                                 </div>
-                                                <div class="form-group row">
+                                                <!-- <div class="form-group row">
                                                     <label class="col-2 col-form-label">NIA Card</label>
                                                     <div class="col-10">
                                                         <input type="text" class="form-control" name="vehicleregno" id="vehicleregno" required="true">
                                                     </div>
-                                                </div>
+                                                </div> -->
                                                 <div class="form-group row">
                                                     <label class="col-2 col-form-label">Appointment Date</label>
                                                     <div class="col-10">

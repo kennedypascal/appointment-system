@@ -1,22 +1,43 @@
 <?php
 session_start();
-error_reporting(0);
+error_reporting(E_ALL);
 include('includes/dbconnection.php');
 
 if (isset($_POST['login'])) {
-    $emailcon = $_POST['emailcont'];
-    $password = md5($_POST['password']);
-    $query = mysqli_query($con, "select ID from tblpickup where (Email='$emailcon' || MobileNumber='$emailcon') && Password='$password' ");
-    $ret = mysqli_fetch_array($query);
-    if ($ret > 0) {
-        $_SESSION['eid'] = $ret['ID'];
-        $_SESSION['Email'] = $ret['Email'];
-        header('location:welcome.php');
+    $emailcon = $_POST['emailcont']; // This now matches the form field
+    $password = md5($_POST['password']); // Hash the password
+
+    // Use prepared statements to avoid SQL injection
+    $stmt = $conn->prepare("SELECT * FROM tblpickup WHERE (email = ? OR MobileNumber = ?) AND password = ?");
+    $stmt->bind_param('sss', $emailcon, $emailcon, $password); // Bind the email/contact and hashed password
+
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    if ($result->num_rows > 0) {
+        $_SESSION['doctor'] = $emailcon; // Use $emailcon as email/contact
+        header('Location: /welcome.php');
+        exit(); // Make sure to exit after a redirect
     } else {
-        $msg = "Invalid Details.";
+        $error = "Invalid email/contact number or password.";
     }
+
+    $stmt->close();
+
+     // $query = mysqli_query($con, "select ID from tblpickup where (Email='$Email' || MobileNumber='$MobileNumber') && Password='$Password' ");
+    // $ret = mysqli_fetch_array($query);
+    // if ($ret > 0) {
+    //     $_SESSION['eid'] = $ret['ID'];
+    //     $_SESSION['Email'] = $ret['Email'];
+    //     header('location:welcome.php');
+    // } else {
+    //     $msg = "Invalid Details.";
+    // }
 }
 ?>
+
+   
+
 <!doctype html>
 <html lang="en">
 
@@ -96,8 +117,8 @@ if (isset($_POST['login'])) {
 
                     <div class="card-box p-5">
                         <h3 class="text-center pb-4">
-                            <a href="../index.php" class="text-success">
-                                <span>Adwoa Boatemaa Memorial Clinic | Doctors Login</span>
+                            <a href="./index.php" class="text-success">
+                                <span>Lekma Hospital | Doctors Login</span>
                             </a>
                         </h3>
                         <p style="font-size:16px; color:red" align="center"> <?php if ($msg) {
@@ -136,7 +157,7 @@ if (isset($_POST['login'])) {
         </div>
 
         <div class="text-center mt-4">
-            <p class="account-copyright">2024 © Adwoa Boatemaa Memorial Clinic</p>
+            <p class="account-copyright">2024 © Lekma Hospital</p>
         </div>
 
     </div>

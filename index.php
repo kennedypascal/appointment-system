@@ -45,16 +45,10 @@
   <div class="card bg-dark text-white">
   <img class="card-img" src="img/profile1.jpg" alt="Card image">
   <div class="card-img-overlay">
-    <h1 class="card-title">Lekma Hospital</h1>
+    <h1 class="card-title" style="color: black;">Lekma Hospital</h1>
 </div>
     
   </header>
-
-
-
-
-
-
 
 
 

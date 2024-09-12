@@ -4,7 +4,7 @@ session_start();
 // initializing variables
 $name = "";
 $username = "";
-$email    = "";
+$Email    = "";
 $errors = array();
 $reg_date = date("Y/m/d");
 
@@ -14,23 +14,23 @@ $db = mysqli_connect('localhost', 'root', '', 'surgerydb');
 
 
 // LOGIN USER
-if (isset($_POST['login_employee'])) {
-  $username = mysqli_real_escape_string($db, $_POST['username']);
-  $password = mysqli_real_escape_string($db, $_POST['password']);
+if (isset($_POST['tblpickup'])) {
+  $Email = mysqli_real_escape_string($db, $_POST['Email']);
+  $Password = mysqli_real_escape_string($db, $_POST['Password']);
 
-  if (empty($username)) {
+  if (empty($Email)) {
     array_push($errors, "Username is required");
   }
-  if (empty($password)) {
+  if (empty($Password)) {
     array_push($errors, "Password is required");
   }
 
   if (count($errors) == 0) {
-    $password = md5($password);
-    $query = "SELECT * FROM tblpickup WHERE Email='$username' AND password='$password'";
+    $Password = md5($Password);
+    $query = "SELECT * FROM tblpickup WHERE Email='$Email' AND password='$Password'";
     $results = mysqli_query($db, $query);
     if (mysqli_num_rows($results) == 1) {
-      $_SESSION['username'] = $username;
+      $_SESSION['username'] = $Email;
       $_SESSION['success'] = "You are now logged in";
       header('location: welcome.php');
     }else {
