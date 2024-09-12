@@ -1,0 +1,250 @@
+/* Global Font Styles */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* Links */
+a {
+  color: #18BC9C;
+}
+
+a:hover, a:focus, a:active {
+  color: #128f76;
+}
+
+/* Section Padding */
+section {
+  padding: 6rem 0;
+}
+
+section h2 {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 992px) {
+  section h2 {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+
+/* Buttons */
+.btn {
+  border-width: 2px;
+}
+
+.btn-xl {
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+}
+
+.btn-social {
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+/* Button Color Variants */
+.btn-primary {
+  background-color: #18BC9C;
+  border-color: #18BC9C;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #128f76;
+  border-color: #128f76;
+}
+
+.btn-secondary {
+  background-color: #2C3E50;
+  border-color: #2C3E50;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: #1a252f;
+  border-color: #1a252f;
+}
+
+/* Colors */
+.text-primary {
+  color: #18BC9C !important;
+}
+
+.text-secondary {
+  color: #2C3E50 !important;
+}
+
+.bg-primary {
+  background-color: #18BC9C !important;
+}
+
+.bg-secondary {
+  background-color: #2C3E50 !important;
+}
+
+
+/* Navbar */
+#mainNav {
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  transition: padding 0.3s;
+}
+
+#mainNav .navbar-brand {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding: 1.5rem 0;
+  }
+  #mainNav .navbar-brand {
+    font-size: 2em;
+  }
+  #mainNav.navbar-shrink {
+    padding: 0.5rem 0;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+/* Navbar Links */
+#mainNav .navbar-nav .nav-link {
+  color: #fff;
+}
+
+#mainNav .navbar-nav .nav-link:hover {
+  color: #18BC9C;
+}
+
+#mainNav .navbar-nav .nav-link.active {
+  color: #18BC9C;
+  background: #fff;
+}
+
+
+/* Header */
+header.masthead {
+  padding: calc(6rem + 72px) 0;
+  background-size: cover;
+}
+
+header.masthead h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+header.masthead h2 {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding: calc(6rem + 106px) 0;
+  }
+  header.masthead h1 {
+    font-size: 4.75rem;
+    line-height: 4rem;
+  }
+  header.masthead h2 {
+    font-size: 1.75rem;
+  }
+}
+
+
+/* Portfolio */
+.portfolio {
+  margin-bottom: -15px;
+}
+
+.portfolio .portfolio-item {
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 15px;
+  transition: all 0.5s ease;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  opacity: 0;
+  background-color: rgba(24, 188, 156, 0.9);
+  transition: opacity 0.5s ease;
+}
+
+.portfolio .portfolio-item:hover .portfolio-item-caption {
+  opacity: 1;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .portfolio {
+    margin-bottom: -30px;
+  }
+  .portfolio .portfolio-item {
+    margin-bottom: 30px;
+  }
+}
+
+/* Footer */
+.footer {
+  padding: 5rem 0;
+  width: 100%;
+  background-color: #2C3E50;
+  color: #fff;
+}
+
+.copyright {
+  background-color: #1a252f;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+/* Floating Label Forms */
+.floating-label-form-group {
+  position: relative;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.floating-label-form-group label {
+  font-size: 0.85rem;
+  top: 2rem;
+  position: absolute;
+  transition: top 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.floating-label-form-group-with-value label {
+  top: 0;
+  opacity: 1;
+}
+
+.floating-label-form-group-with-focus label {
+  color: #18BC9C;
+}
+
+
+
+
